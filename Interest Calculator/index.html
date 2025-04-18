@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Calculatrice d'intérêt</h2>
+    <div class="container">
+        <h3>Montant blocké:</h3>
+        <input type="number" id="amount">
+        <h3>Intérêt:</h3>
+        <input type="number" id="rate">
+        <h3>Jours:</h3>
+        <input type="number" id="days">
+        <button id="calculate" onclick="calculate()">Calculer</button>
+        <p id="error"></p>
+        <h3><span id="txt">Totale: </span><span id="total"></span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

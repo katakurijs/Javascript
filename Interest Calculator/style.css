@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    border-radius: 13px;
+    margin: 40px;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.43);
+    display: inline-block;
+    padding: 30px 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#calculate {
+    display: block;
+    margin: auto;
+    font-size: 22px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-width: 0px;
+    border-color: rgb(167, 167, 167);
+    background-color: rgb(0, 239, 0);
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+    cursor: pointer;
+}
+#calculate:hover {
+    background-color: rgb(0, 225, 0);
+}
+#calculate:active {
+    background-color: rgb(0, 188, 0);
+}
+input {
+    width: 180px;
+    font-size: 30px;
+    text-align: center;
+}
+#error {
+    color: red;
+    font-weight: bold;
+}
+#total {
+    color: rgb(0, 215, 11);
+}
