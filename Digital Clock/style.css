@@ -1,0 +1,31 @@
+#clock {
+    font-size: 7em;
+    font-family: monospace;
+    color: #f0f0f0;
+    padding: 20px 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2), 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: all .3s ease-in-out;
+}
+#clock:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
+    width: 96vw;
+    background-image: url(bg.jpg);
+    background-origin: border-box;
+}
